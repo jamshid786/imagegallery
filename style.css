@@ -29,17 +29,22 @@
 
 .card-img-top3D1:hover{
     transition: transform 0.5s ease;
-    transform: rotateY(150deg);
+    transform: rotate3d(1, 1, 1, 45deg);
 }
 
 .card-img-top3D2:hover{
     transition: transform 0.5s ease;
-    transform: rotate3d(1, 1, 1, 30deg) 
+    transform: rotate3d(2, -1, -1, -0.2turn);
 }
 
 .card-img-top3D3:hover{
     transition: transform 0.5s ease;
-    transform: rotateX(150deg);
+    transform: rotate3d(0, 1, 0.5,0.2turn);
+}
+
+.card-img-top3D4:hover{
+    transition: transform 0.5s ease;
+    transform: rotate3d(0, 1, 1,0.2turn);
 }
 
 
