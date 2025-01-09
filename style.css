@@ -11,7 +11,7 @@
 
 .card-img-top3:hover{
     transition: transform 0.5s ease;
-    transform: scale(1.2);
+    transform: scale(0.5, 0.5);
 }
 
 .card-img-top4:hover{
