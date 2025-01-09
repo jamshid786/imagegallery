@@ -1,0 +1,45 @@
+.card-img-top1:hover{
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    transform: translate(50px, 100px);
+}
+
+.card-img-top2:hover{
+    transition: transform 0.5s ease;
+    transform: rotate(20deg);
+}
+
+.card-img-top3:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+.card-img-top4:hover{
+    transition: transform 0.5s ease;
+    transform: skew(20deg, 10deg);
+}
+
+
+
+
+.nav-link:hover{
+    background-color: rgb(255, 18, 18);
+    border-radius: 8px;
+}
+
+.card-img-top3D1:hover{
+    transition: transform 0.5s ease;
+    transform: rotateY(150deg);
+}
+
+.card-img-top3D2:hover{
+    transition: transform 0.5s ease;
+    transform: rotate3d(1, 1, 1, 30deg) 
+}
+
+.card-img-top3D3:hover{
+    transition: transform 0.5s ease;
+    transform: rotateX(150deg);
+}
+
+
